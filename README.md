@@ -17,8 +17,13 @@ npm run buid
 yarn add vue
 yarn add vue-loader
 yarn add vue-template-compiler
+yarn add @vue/babel-preset-jsx 
+yarn add @vue/babel-helper-vue-jsx-merge-props --dev
+
 
 yarn encore dev-server --hot
+
+php -S localhost:8000 -t public
 
 # si erreur 
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
