@@ -4,4 +4,6 @@
 /public/build/
 npm-debug.log
 yarn-error.log
+vendor/*
+var/*
 ###< symfony/webpack-encore-bundle ###
