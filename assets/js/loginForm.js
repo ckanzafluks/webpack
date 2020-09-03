@@ -10,7 +10,7 @@ import '../css/app.css';
 
 import Vue from 'vue';
 import Example from './components/Example'
-import LoginForm from './components/LoginForm'
+
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 // Install BootstrapVue
@@ -21,20 +21,13 @@ Vue.use(IconsPlugin)
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-
 /**
  * Create a fresh Vue Application instance
  */
 new Vue({
     el: '#app',
-    components: {
-        Example,
-        LoginForm
-    }
+    components: {Example}
 });
-
-
-
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
 // import $ from 'jquery';

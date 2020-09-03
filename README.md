@@ -15,6 +15,8 @@ yarn add vue-loader
 yarn add vue-template-compiler
 yarn add @vue/babel-preset-jsx 
 yarn add @vue/babel-helper-vue-jsx-merge-props --dev
+yarn add vue bootstrap-vue bootstrap
+yarn add sass-loader@^8.0.0 node-sass --dev
 
 # Pour compiler les fichiers Vuejs en live pendant les developpements
 yarn encore dev-server --hot
