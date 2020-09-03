@@ -13,7 +13,6 @@ import Example from './components/Example'
 
 
 
-
 /**
  * Create a fresh Vue Application instance
  */
