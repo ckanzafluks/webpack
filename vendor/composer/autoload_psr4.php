@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Twig\\' => array($vendorDir . '/twig/twig/src'),
     'Symfony\\WebpackEncoreBundle\\' => array($vendorDir . '/symfony/webpack-encore-bundle/src'),
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
     'Symfony\\Polyfill\\Php73\\' => array($vendorDir . '/symfony/polyfill-php73'),
@@ -13,6 +14,7 @@ return array(
     'Symfony\\Polyfill\\Intl\\Normalizer\\' => array($vendorDir . '/symfony/polyfill-intl-normalizer'),
     'Symfony\\Polyfill\\Intl\\Grapheme\\' => array($vendorDir . '/symfony/polyfill-intl-grapheme'),
     'Symfony\\Flex\\' => array($vendorDir . '/symfony/flex/src'),
+    'Symfony\\Contracts\\Translation\\' => array($vendorDir . '/symfony/translation-contracts'),
     'Symfony\\Contracts\\Service\\' => array($vendorDir . '/symfony/service-contracts'),
     'Symfony\\Contracts\\EventDispatcher\\' => array($vendorDir . '/symfony/event-dispatcher-contracts'),
     'Symfony\\Contracts\\Cache\\' => array($vendorDir . '/symfony/cache-contracts'),
@@ -34,6 +36,8 @@ return array(
     'Symfony\\Component\\Cache\\' => array($vendorDir . '/symfony/cache'),
     'Symfony\\Component\\Asset\\' => array($vendorDir . '/symfony/asset'),
     'Symfony\\Bundle\\FrameworkBundle\\' => array($vendorDir . '/symfony/framework-bundle'),
+    'Symfony\\Bundle\\DebugBundle\\' => array($vendorDir . '/symfony/debug-bundle'),
+    'Symfony\\Bridge\\Twig\\' => array($vendorDir . '/symfony/twig-bridge'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\EventDispatcher\\' => array($vendorDir . '/psr/event-dispatcher/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
