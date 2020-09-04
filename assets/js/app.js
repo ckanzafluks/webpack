@@ -10,7 +10,6 @@ import '../css/app.css';
 
 import Vue from 'vue';
 import Example from './components/Example'
-import LoginForm from './components/LoginForm'
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 // Install BootstrapVue
@@ -28,8 +27,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 new Vue({
     el: '#app',
     components: {
-        Example,
-        LoginForm
+        Example
     }
 });
 
